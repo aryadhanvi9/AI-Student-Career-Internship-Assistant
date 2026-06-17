@@ -1,7 +1,7 @@
 def recommend_internship(skills):
-    if "Python" in skills:
-        return "AI/ML Internship"
-    elif "Web Development" in skills:
-        return "Frontend Developer Internship"
-    else:
-        return "General Internship Opportunities"
+if "python" in skills.lower():
+return "Python Developer Intern"
+elif "design" in skills.lower():
+return "Graphic Design Intern"
+else:
+return "Technology Intern"
