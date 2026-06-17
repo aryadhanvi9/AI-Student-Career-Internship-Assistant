@@ -1,7 +1,7 @@
 def recommend_career(skills):
-    if "Python" in skills:
-        return "AI/ML Engineer"
-    elif "Java" in skills:
+    if "python" in skills.lower():
         return "Software Developer"
+    elif "design" in skills.lower():
+        return "UI/UX Designer"
     else:
-        return "Explore different career paths"
+        return "General Tech Career"
