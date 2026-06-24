@@ -1,7 +1,2 @@
 Flask
-gunicorn==21.2.0
-pandas
-numpy
-scikit-learn
-matplotlib
-nltk
+gunicorn
