@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Student Career Internship Assistant</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+       background:#f4f7fc;
+          padding-top:50px;
+        }
+        h1{
+            color:#2c3e50;
+        }
+        input{
+            padding:10px;
+            width:250px;
+        }
+        button{
+            padding:10px 15px;
+            cursor:pointer;
+        }
+        .result{
+            margin-top:20px;
+            font-size:24px;
+            color:green;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+<h1>AI Student Career Internship Assistant</h1>
+<form method="POST">
+    <input type="text" name="skills" placeholder="Enter your skills">
+    <button type="submit">Get Career Suggestion</button>
+</form>
+<div class="result">
+    {{ career }}
+</div>
+</body>
+</html>
